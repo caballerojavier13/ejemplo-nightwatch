@@ -1,6 +1,9 @@
 {
   "src_folders" : ["./tests/e2e"],
+
   "test_settings" : {
+    "selenium_port": 4444,
+    "selenium_host": "selenium-ch",
     "chrome" : {
       "desiredCapabilities": {
         "browserName": "chrome",
