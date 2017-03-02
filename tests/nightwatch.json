@@ -1,6 +1,10 @@
 {
   "src_folders" : ["./tests/e2e"],
-
+  "selenium" : {
+    "start_process" : false,
+    "host" : "selenium-ch",
+    "port" : 4444
+  },
   "test_settings" : {
     "selenium_port": 4444,
     "selenium_host": "selenium-ch",
